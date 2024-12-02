@@ -59,7 +59,7 @@
        <li class="nav-item pb-2">
         <a class="nav-link {{ (Request::is('users') ? 'active' : '') }}" href="{{ route('users.index') }}">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-                <i style="font-size: 1rem;" class="fas fa-lg fa-users ps-2 pe-2 text-center text-dark {{ (Request::is('users') ? 'text-white' : 'text-dark') }} " aria-hidden="true"></i>
+                <i style="font-size: 1rem;" class="bi bi-person-fill ps-2 pe-2 text-center text-dark {{ (Request::is('users') ? 'text-white' : 'text-dark') }} " aria-hidden="true"></i>
             </div>
             <span class="nav-link-text ms-1">User Management</span>
         </a>
@@ -69,7 +69,7 @@
        <li class="nav-item pb-2">
         <a class="nav-link {{ (Request::is('stocks') ? 'active' : '') }}" href="{{ route('stocks.index') }}">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-                <i style="font-size: 1rem;" class="fas fa-lg fa-boxes ps-2 pe-2 text-center text-dark {{ (Request::is('stocks') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
+                <i style="font-size: 1rem;" class="bi bi-box ps-2 pe-2 text-center text-dark {{ (Request::is('stocks') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
             </div>
             <span class="nav-link-text ms-1">Stocks Management</span>
         </a>
@@ -78,7 +78,7 @@
       <li class="nav-item pb-2">
         <a class="nav-link {{ (Request::is('clients') ? 'active' : '') }}" href="{{ route('clients.index') }}">
           <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-            <i style="font-size: 1rem;" class="fas fa-lg fa-building ps-2 pe-2 text-center text-dark {{ (Request::is('clients') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
+            <i style="font-size: 1rem;" class="bi bi-person-lines-fill ps-2 pe-2 text-center text-dark {{ (Request::is('clients') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
           </div>
           <span class="nav-link-text ms-1">Clients Management</span>
         </a>
@@ -88,7 +88,7 @@
       <li class="nav-item pb-2">
         <a class="nav-link {{ (Request::is('client_orders') ? 'active' : '') }}" href="{{ route('client_orders.index') }}">
           <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-            <i style="font-size: 1rem;" class="fas fa-lg fa-file-alt ps-2 pe-2 text-center text-dark {{ (Request::is('client_orders') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
+            <i style="font-size: 1rem;" class="bi bi-cart-fill ps-2 pe-2 text-center text-dark {{ (Request::is('client_orders') ? 'text-white' : 'text-dark') }}" aria-hidden="true"></i>
           </div>
           <span class="nav-link-text ms-1">Orders Management</span>
         </a>
