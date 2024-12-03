@@ -20,14 +20,14 @@
                 <!-- Dropdown User Profile -->
                 <li class="nav-item dropdown pe-2 d-flex align-items-center">
                     <a href="#" class="nav-link text-body p-0 dropdown-toggle" id="dropdownUserMenu" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-user me-sm-1"></i>
+                        <i class="bi bi-person me-sm-1"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end px-2 py-3" aria-labelledby="dropdownUserMenu">
                         <li class="mb-2">
                             <a class="dropdown-item border-radius-md" href="{{ url('/user-profile') }}">
                                 <div class="d-flex py-1">
                                     <div class="my-auto">
-                                        <i class="fa fa-user me-sm-1"></i>
+                                        <i class="bi bi-person me-sm-2"></i>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center">
                                         <h6 class="text-sm font-weight-normal mb-1">My Profile</h6>
@@ -39,7 +39,7 @@
                             <a class="dropdown-item border-radius-md" href="{{ url('/logout') }}">
                                 <div class="d-flex py-1">
                                     <div class="my-auto">
-                                        <i class="fa fa-sign-out-alt me-sm-1"></i>
+                                        <i class="bi bi-box-arrow-right me-sm-2"></i>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center">
                                         <h6 class="text-sm font-weight-normal mb-1">Sign Out</h6>
